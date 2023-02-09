@@ -1,0 +1,33 @@
+body {
+    background-image: url('./bg.jpg');
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15%;
+}
+
+#largest-header {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.imptnt {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hplnk {
+    text-decoration: none;
+}
+
+.main {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sub {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 10px;
+}
