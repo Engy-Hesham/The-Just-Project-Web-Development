@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form-styles.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="name" placeholder="Enter your Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="username">Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="username" placeholder="Enter your username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="password" placeholder="Enter your Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="re-password">Re-type Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="re-password" id="re-password" placeholder="Enter your Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="techie-skills">Techie Skills:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="techie-skills" id="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="techie-skills" id="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="techie-skills" id="javascript">
+                    <label for="javascript">JavaScript</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone Number:</label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" placeholder="Enter your phone number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="college">College:</label>
+                </td>
+                <td>
+                    <select id="college">
+                <option value="" disabled selected>Select your college</option>
+                <option value="alex">Alexandria University</option>
+                <option value="ain-shams">Ain Shams University</option>
+                <option value="cairo">Cairo University</option>
+              </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
