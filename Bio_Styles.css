@@ -25,20 +25,31 @@ header h1 {
 nav {
     display: flex;
     align-items:center;
-    width: 20%;
+    justify-items: center;
+    justify-content: space-between;
+    width: 22%;
 }
 
 nav ul {
     width: 100%;
+    display: flex;
+    align-items:center;
+    justify-items: center;
+    justify-content: space-between;
 }
 nav li {
     display: inline-flex;
-    padding: 5%;
+    /* padding: 5%; */
 }
+
+.about {
+    text-decoration: none;
+}
+
 nav a {
     font-family: 'Halant', serif;
     color: #000000;
-    text-decoration: none;
+    text-decoration: underline solid #155EEF;
     text-transform: capitalize;
 }
 
@@ -54,7 +65,8 @@ nav a {
 }
 
 header .transparent-btn {
-    height: 70%;
+    height: 35px;
+    width: 100px;
 }
 
 
@@ -92,8 +104,9 @@ header .transparent-btn {
 }
 
 #upper-section .filled-btn {
-    height: 8%;
+    height: 9%;
     margin-top: 2%;
+    width:160px
 }
 
 #lower-section {
@@ -103,13 +116,13 @@ header .transparent-btn {
     justify-content: left;
 }
 
-#lower-section img, #lower-section div {
+#lower-section img {
 margin: 3%;
 }
 
 #lower-section-btns {
     display: flex;
-    width: 50%;
+    width: 60%;
     height: 20%;
     align-items: center;
 }
@@ -117,6 +130,7 @@ margin: 3%;
 h3 {
     font-family: 'Halant';
     font-size: 32px;
+    margin-top: 6%;
 }
 
 #lower-section p {
@@ -126,9 +140,13 @@ h3 {
 }
 
 #lower-section .filled-btn, #lower-section .transparent-btn {
-    height: 50%;
-    width:40%;
-    margin: 1%;
+    height: 45%;
+    width:180px;
+    margin-top: 10%;
+}
+
+#lower-section .transparent-btn {
+margin-left: 5%;
 }
 
 footer {
